@@ -107,12 +107,19 @@ from-zero-server/
 - **connection**: Estabelece conexão com o servidor
 - **sendMessage**: Envia uma nova mensagem
 - **useItem**: Solicita o uso de um item do inventário (validação no servidor)
+- **updateHealth**: Atualiza a saúde do jogador
+- **updateEnergy**: Atualiza a energia do jogador
+- **levelUp**: Solicita o aumento de nível do jogador
+- **updateStats**: Atualiza as estatísticas do jogador
+- **addItemToInventory**: Adiciona um item ao inventário do jogador
+- **removeItemFromInventory**: Remove um item do inventário do jogador
 
 ### Servidor -> Cliente
 
 - **newMessage**: Recebe uma nova mensagem
 - **newNotification**: Recebe uma nova notificação
 - **inventoryUpdate**: Recebe atualizações do inventário
+- **playerUpdate**: Recebe atualizações de atributos do jogador (saúde, energia, nível, etc.)
 - **actionError**: Recebe erros relacionados a ações inválidas
 
 ## 📝 Modelos de Dados
