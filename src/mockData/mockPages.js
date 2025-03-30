@@ -2,8 +2,8 @@ exports.pagesData = [
 	{
 		id: "home",
 		title: "Home",
-		icon: "💙", // Opcional: Ícone exibido antes título
-		suffixIcon: "🏠", // Opcional: Ícone exibido depois do título
+		icon: null, // Opcional: Ícone exibido antes título
+		suffixIcon: null, // Opcional: Ícone exibido depois do título
 		order: 1, // Para garantir a ordem correta na navegação
 		content: {
 			title: "Bem-vindo ao GameHub",
@@ -18,8 +18,8 @@ exports.pagesData = [
 	{
 		id: "jogo",
 		title: "O Jogo",
-		icon: "🎮",
-		suffixIcon: "🕹️",
+		icon: null,
+		suffixIcon: null,
 		order: 2,
 		content: {
 			title: "Sobre o Jogo",
@@ -35,8 +35,8 @@ exports.pagesData = [
 	{
 		id: "ranking",
 		title: "Ranking",
-		icon: "🏆",
-		suffixIcon: "🥇",
+		icon: null,
+		suffixIcon: null,
 		order: 3,
 		content: {
 			title: "Ranking de Jogadores",
@@ -56,8 +56,8 @@ exports.pagesData = [
 	{
 		id: "config",
 		title: "Configurações",
-		icon: "⚙️",
-		suffixIcon: "⚡",
+		icon: null,
+		suffixIcon: null,
 		order: 4,
 		content: {
 			title: "Configurações",
